@@ -26,7 +26,7 @@ import AjoutComposant from './Pages/Admin/Ajout/AjoutComposant';
 import AjoutDescription from './Pages/Admin/Ajout/AjoutDescription';
 import AjoutEntité from './Pages/Admin/Ajout/AjoutEntité';
 import Editevenmt from './Pages/Admin/Modifier/Editevenmt';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Info1 from './components/body/Info1';
 import InfoCn from './components/body/InfoCn';
 import AjoutPrixFormation from './Pages/Admin/Ajout/AjoutPrixFormation';
@@ -56,8 +56,13 @@ axios.interceptors.request.use(function (config){
 });
 
 
-function App() {
 
+function App() {
+  useEffect( ()=> {
+          axios.post('/api/views_pages').then(res => {
+             
+          } )
+  },[])
   return (
 
    //ato ny miantso anle api

@@ -19,6 +19,7 @@ use App\Http\Controllers\DescriptionController;
 use App\Http\Controllers\PrixserviceController;
 use App\Http\Controllers\PrixformationController;
 use App\Http\Controllers\PrixotherController;
+use App\Http\Controllers\ViewController;
 
 Route::get('debug', [JointableController::class, 'index']);
 
@@ -127,7 +128,7 @@ Route::post('add-coments ', [ActuController::class, 'store']);
 // });
 
 //Email Route which we used in angular http service
-Route::post('send/email', [HomeController::class, 'mail']);
+Route::post('views_pages', [ViewController::class, 'views']);
 
 
 
