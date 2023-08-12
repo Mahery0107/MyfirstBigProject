@@ -1,0 +1,53 @@
+.title-ajout{
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.ajoutheader-body{
+    width: 80%;
+    margin: 0 auto;
+}
+.bouton_ajout{
+    width: 15%;
+   
+    margin: 20px 20px 20px 40% ;
+}
+.bouton_ajout p {
+    font-size: 20px;
+    text-align: center;
+}
+.actus-body
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.ajoutevenmt-body
+{
+    width: 80%;
+    margin: 0 auto;
+}
+#descri1{
+  height: 25vh;
+}
+#img1{
+    width: 30vw;
+    height: 15vh;
+}
+.body_ajoutprix
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.ajoutoffre-body
+{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+.ajout-price_service_body
+{
+    
+    width: 80%;
+    margin: 0 auto;
+}

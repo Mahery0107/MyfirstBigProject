@@ -1,0 +1,42 @@
+.history-body{
+    width: 80vw;
+    height: auto;
+    border: 40rem;
+  padding: 15px 20px 20px 20px;
+    margin-top: 5%;
+}
+#petits_title{
+    font-size: 20px;
+    font-weight: 350;
+    font-family: serif;
+}
+#para{
+    font-size: 20px;
+    font-weight: 350;
+    font-family:'Times New Roman', Times, serif;
+}
+#sous_titre
+{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+}
+.strong
+{
+    font-size: 22px;
+    font-family: serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width:300px) and( max-width:750px) {
+    .responsabilités
+{
+    display: flex;
+    flex-direction: row;
+}
+}

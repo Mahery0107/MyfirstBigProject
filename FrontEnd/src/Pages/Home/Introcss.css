@@ -1,0 +1,104 @@
+.carousel-item {
+
+    margin-bottom: 90px;
+    }
+  .home
+  {
+    position: relative;
+    overflow-x: clip;
+   
+  }
+  #petitTitres{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #petitTitre{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+  }
+  .btn-lg{
+    margin-left: 45%;
+    border-radius: 5px;
+  }
+  .separators{
+    width: 10%;
+    height: 60px;
+    color: black;
+    margin : 0 1% 0 45%;
+}
+  /*responsive*/
+  @media screen and (max-width : 1200px)
+{
+  .btn-lg{
+    margin-left: 40%;
+    border-radius: 5px;
+  }
+  #petitTitres{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #petitTitre{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width : 600px)
+{
+  .btn-lg{
+    margin-left: 25%;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  #petitTitres{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #petitTitre{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+  }
+}
+  
+@media screen and (min-width : 200px) and (max-width : 330px)
+{
+  .btn-lg{
+    margin-left: 18%;
+    border-radius: 5px;
+    font-size: 8px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  #petitTitres{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #petitTitre{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+  }
+}
+  

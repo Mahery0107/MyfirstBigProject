@@ -1,0 +1,10 @@
+.sb-sidenav-menu{
+    margin-top: 25px;
+}
+#sidenavAccordion{
+    margin-top: 25px; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

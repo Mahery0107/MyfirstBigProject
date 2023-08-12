@@ -1,0 +1,28 @@
+.carte_apropos2{
+    width: 90%;
+    margin: 0 auto;
+  
+}
+#title-head{
+    font-size:20px;
+     margin-top: 2rem;
+   text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.carte_apropos3{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.carte_apropos4{
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.table{
+    height: 20vh;
+}
+.delete
+{
+    margin-top: 10px;
+}

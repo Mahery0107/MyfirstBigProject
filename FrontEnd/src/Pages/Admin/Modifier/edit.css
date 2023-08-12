@@ -1,0 +1,26 @@
+.title-edit{
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.editHead-body{
+    width: 80%;
+    margin: 0 auto;
+}
+.editevnmt-body
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.editoffer_body
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.buts
+{
+    margin-top: 5%;
+    margin-left: 50%;
+    
+}

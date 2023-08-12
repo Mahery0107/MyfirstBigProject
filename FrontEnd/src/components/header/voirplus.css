@@ -1,0 +1,272 @@
+.voir-titles{
+    margin-top: 6%;
+    color: rgb(39, 37, 37);
+    font-size: 23px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.voir-title{
+    color: white;
+    text-align: center;
+}
+.voir-formations{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.voir-formation:nth-child(1)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(146, 148, 146);
+    border-radius: 8px;
+    margin-left: 10%;
+}
+.voir-formation:nth-child(2)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(18, 127, 18);
+    border-radius: 8px;
+    margin-left: 13%;
+}
+.voir-formation:nth-child(3)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(10, 60, 10);
+    border-radius: 8px;
+    margin-left: 15%;
+}
+.voir-formation:nth-child(4)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(81, 84, 81);
+    border-radius: 8px;
+    margin-left: 18%;
+}
+.voir-formation:nth-child(5)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(65, 152, 65);
+    border-radius: 8px;
+    margin-left: 20%;
+}
+.voir-formation:nth-child(6)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(64, 187, 64);
+    border-radius: 8px;
+    margin-left: 22%;
+}
+.voir-formation:nth-child(7)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(49, 121, 49);
+    border-radius: 8px;
+    margin-left: 24%;
+}
+.voir-formation:nth-child(8)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(60, 64, 60);
+    border-radius: 8px;
+    margin-left: 26%;
+}
+.voir-formation:nth-child(9)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(147, 152, 147);
+    border-radius: 8px;
+    margin-left: 27%;
+}
+.voir-formation:nth-child(10)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(87, 195, 87);
+    border-radius: 8px;
+    margin-left: 28%;
+}
+.voir-formation:nth-child(11)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(130, 143, 130);
+    border-radius: 8px;
+    margin-left: 29%;
+}
+.voir-formation:nth-child(12)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(35, 217, 35);
+    border-radius: 8px;
+    margin-left: 30%;
+}
+.voir-formation:nth-child(13)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(48, 59, 48);
+    border-radius: 8px;
+    margin-left: 32%;
+}
+.voir-formation:nth-child(14)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(28, 54, 28);
+    border-radius: 8px;
+    margin-left: 34%;
+}
+.voir-formation:nth-child(15)  {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(182, 191, 182);
+    border-radius: 8px;
+    margin-left: 35%;
+}
+.voir-formation2{
+    width: 50vw;
+    height: auto;
+    background-color:  rgb(28, 100, 28);;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.voir-formation3{
+    width: 50vw;
+    height: auto;
+    background-color: rgb(127, 131, 127);
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.voir-formation4{
+    width: 50vw;
+    height: auto;
+    background-color: rgb(28, 100, 28);
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.voir-formation5{
+    width: 50vw;
+    height: auto;
+    background-color: rgb(114, 119, 114);
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.voir-sous-titre{
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#liste{
+    font-size: 14px;
+    list-style-type: disc;
+     
+}
+
+@media screen and (max-width : 1000px)
+{
+    .voir-formation:nth-child(1)  {
+        width: 70vw;
+        height: auto;
+        background-color: rgb(146, 148, 146);
+        border-radius: 8px;
+        margin-left: 10%;
+    }
+    .voir-formation:nth-child(2)  {
+        width: 60vw;
+        height: auto;
+        background-color: rgb(17, 106, 17);
+        border-radius: 8px;
+        margin-left: 11%;
+    }
+    .voir-formation:nth-child(3)  {
+        width: 60vw;
+        height: auto;
+        background-color: rgb(10, 60, 10);
+        border-radius: 8px;
+        margin-left: 12%;
+    }
+    .voir-formation:nth-child(4)  {
+        width: 60vw;
+        height: auto;
+        background-color: rgb(81, 84, 81);
+        border-radius: 8px;
+        margin-left: 13%;
+    }
+    .voir-formation:nth-child(5)  {
+        width: 60vw;
+        height: auto;
+        background-color: rgb(93, 143, 93);
+        border-radius: 8px;
+        margin-left: 15%;
+    }
+    .voir-formation:nth-child(6)  {
+        width: 60vw;
+        height: auto;
+        background-color: rgb(64, 187, 64);
+        border-radius: 8px;
+        margin-left: 22%;
+    }
+    
+.voir-formation:nth-child(7)  {
+    width: 60vw;
+    height: auto;
+    background-color: rgb(49, 121, 49);
+    border-radius: 8px;
+    margin-left: 24%;
+}
+.voir-formation:nth-child(8)  {
+    width: 60vw;
+    height: auto;
+    background-color: rgb(60, 64, 60);
+    border-radius: 8px;
+    margin-left: 26%;
+}
+.voir-formation:nth-child(9)  {
+    width: 60vw;
+    height: auto;
+    background-color: rgb(147, 152, 147);
+    border-radius: 8px;
+    margin-left: 27%;
+}
+.voir-formation:nth-child(10)  {
+    width: 60vw;
+    height: auto;
+    background-color: rgb(87, 195, 87);
+    border-radius: 8px;
+    margin-left: 28%;
+}
+    .voir-titles
+        {
+            font-weight: normal;
+            font-size: 20px;
+            position: relative;
+            margin: 130px 0 30px 0;
+        }
+        .voir-titles::before
+        {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 3px;
+            background-color: rgb(8, 135, 8);
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: animate 4s linear infinite;
+        }
+        @keyframes animate {
+            0% {
+                width: 100px;
+            }
+            50% {
+                width: 200px;
+            }
+            100% {
+                width: 100px;
+            }
+}
+
+}
+

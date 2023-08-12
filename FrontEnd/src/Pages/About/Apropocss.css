@@ -1,0 +1,58 @@
+.groupes form 
+{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact_name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.groupes form .input-box
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.groupes form .input-box input,
+.groupes form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: black;
+    background: rgb(238, 235, 240);
+    border-radius: .8rem;
+    margin: .7rem 0;
+    box-shadow: 0 .1rem .5rem rgb(192, 195, 198);
+}
+.groupes form .input-box input{
+    width: 4050vw;
+}
+.groupes form textarea {
+    resize: none;
+}
+
+@media  screen and (max-width: 991px) {
+    .groupes {
+        min-height: auto;
+    }
+}
+@media  screen and (max-width: 617px) {
+    .groupes form .input-box input{
+        width: 90%;
+    }
+    .groupes form textarea {
+        width: 90%;
+        height: 200px;
+    }
+    .contact_name
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+}

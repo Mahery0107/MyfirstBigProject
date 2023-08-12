@@ -1,0 +1,272 @@
+
+
+
+
+
+
+
+.evenments-container 
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 1rem;
+}
+
+.evenments-container .evenements-wrapper
+{
+  position: relative;
+  max-width: 90rem;
+  width: 100%;
+  padding: 5rem;
+}
+
+.evenements-content .evenements-slide
+{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: green;
+  border-radius: 2rem;
+  box-shadow: 0 .1rem .5rem rgba(0,0,0,.125);
+  padding: 3rem 5rem;
+  border-top: .8rem solid rgb(50,40,60);
+  border-bottom: .8rem solid rgb(50,40,60);
+}
+
+.evenements-slide img 
+{
+  width: 14rem;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 10%;
+  border: .5rem solid rgba(0,0,0,.125);
+  outline: .5rem solid rgba(10,10,50,.125);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-image{
+    position: relative;
+    height: 180px;
+    width: 250px;
+    background-color: #fff;
+padding: 3px;
+margin-left: 13%;
+border-radius: 5px;
+}
+.card-images{
+  position: relative;
+  height: 250px;
+  width: 300px;
+  background-color: #fff;
+padding: 3px;
+margin-left: 5%;
+border-radius: 5px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  display: block;
+  margin: 5% auto 5% auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.carde{
+    width: 50vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 25px;
+    
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 4px solid ;
+    border-radius: 25px;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0e552e;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::after,
+.overlay::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+   
+    background-color: #0e552e;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+
+.image-content, .card-content{
+    padding: 10px 14px;
+  
+
+}
+.image-content{
+    row-gap: 5px;
+    position: relative;
+   padding: 25px 0;
+}
+.btn-sm{
+    margin-left: 2%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 8%;
+}
+.btn-sm:hover{
+    background-color: aqua;
+}
+.descriptions{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(46, 29, 29);
+}
+
+  
+.body-evenments {
+    
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+    padding-top: 5%;
+  }
+  
+  .swiper {
+    width: 70%;
+    height: 90%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    height: 60vh;
+    width: 20vw;
+   border-radius: 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination-bullet{
+    background-color: #0e552e;
+  }
+  video{
+    aspect-ratio: 16/9;
+  }
+  
+
+  @media screen and (max-width : 1200px)
+  {
+   .card-image{
+    margin: 0 auto;
+    width: 150px;
+   }
+   
+  }
+  @media screen and (max-width : 600px)
+  {
+    .card-image{
+      margin: 0 auto;
+      width: 150px;
+     }
+   
+  }
+
+  @media screen and (min-width : 200px) and (max-width : 330px)
+  {
+    .card-image{
+      margin: 0 auto;
+      width: 140px;
+     }
+   
+     .carde{
+      width: 60vw;
+      height: 80vh;
+     }
+
+     .body-evenments
+     {
+      height: 120vh;
+     }
+     .swiper-slide
+     {
+      height: 90vh;
+     }
+  }

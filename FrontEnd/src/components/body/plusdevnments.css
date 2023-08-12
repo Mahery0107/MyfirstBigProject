@@ -1,0 +1,210 @@
+.body-plusd-evenements{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    padding: 20px 20px;
+}
+#evenments_titres{
+    font-size: 28px;
+  text-align: center;
+    color:rgb(19, 19, 19);
+    font-weight: 300;
+   font-family: serif;
+   margin-bottom: 30px;
+}
+.commentaires
+{
+    width: 20vw;
+}
+.card {
+    width: 38rem;
+}
+.card-body{
+    margin-left: 20px;
+}
+.card-body a {
+   
+    margin-left: 50px;
+}
+.plusd-evenements-right{
+    margin-left: 8%;
+   
+    margin-top: 2%;
+}
+#coms-title{
+     font-size: 25px;
+     margin-top: 35px;
+    margin-left: 10px;
+     color:rgb(139, 139, 175);
+     font-weight: 250;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titres_content  p {
+   margin: 10px 20px 10px 20px;
+}
+.auteur
+{
+    font-size: 20px;
+   color: rgb(50, 50, 49) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-comments, .fa-heart{
+    margin-left: 8px;
+}
+.comments_content{
+    border-radius: 8px;
+    width: 28vw;
+    background-color: rgb(216, 210, 210);
+    padding: 20px 30px 20px 30px;
+    margin-top: 2%;
+}
+.form_coms
+{
+    margin-top: 5%;
+}
+
+.form_coms input {
+    width: 65%;
+    height: 5.5vh;
+    padding: 0 15px 0 15px;
+    border: bold;
+    margin-right: 5%;
+   }
+   .bouton_coms
+   {
+    border: 0.5rem;
+    border-radius: 5px;
+   }
+   .fa-paper-plane 
+   {
+    font-size: 25px;
+   }
+.coments_content 
+{
+    margin-bottom: 10%;
+}
+.flex_menu
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bouton_coms
+{
+    margin-left: 0.5%;
+   
+}
+@media screen and (max-width : 600px)
+{
+    .titres_content  p {
+        margin: 10px 20px 10px 0px;
+     }
+    .body-plusd-evenements{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        padding: 20px 20px;
+    }
+    #evenments_titres{
+        font-size: 20px;
+     
+        color:rgb(19, 19, 19);
+        margin-top: 2%;
+       margin-bottom: 20px;
+    }
+    .card {
+        width: 21.5rem;
+        margin-top: 10%;
+    }
+    .commentaires
+{
+    width: 45vw;
+}
+   
+    .card img {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .card-body
+    {
+        margin-left: 8%;
+    }
+    .plusd-evenements-right{
+        margin-left: 10%;
+       
+        margin-top: 2%;
+    }
+    .titres_content
+    {
+        padding: 2px 10px 2px 5px;
+    }
+    #paragraph{
+        text-align: center;
+        align-items: center;
+    }
+    #coms-title {
+        font-size: 20px;
+    }
+    .comments_content{
+        border-radius: 8px;
+        width: 70vw;
+        background-color: rgb(226, 218, 218);
+        padding: 20px 30px 20px 30px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .auteur
+        {
+            font-size: 18px;
+        color: rgb(50, 50, 49) ;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .form_coms
+        {
+            margin-top: 5%;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .coments_content 
+        {
+            margin-bottom: 20%;
+        }
+        .form_coms input {
+            width: 305%;
+            height: 5.5vh;
+            padding: 0 15px 0 15px;
+            border: bold;
+            margin-right: 2%;
+           }
+           .bouton_coms
+           {
+            border: 0.5rem;
+            border-radius: 5px;
+           }
+           .fa-paper-plane 
+           {
+            font-size: 26px;
+           }
+}
+
+@media screen and (min-width : 200px) and (max-width : 500px)
+{
+   .evenement_cards
+   {
+    width: 100%;
+   }
+   .fa-paper-plane 
+   {
+    font-size: 20px;
+   }
+   .form_coms input {
+    width: 305%;
+    height: 6.5vh;
+    padding: 0 15px 0 15px;
+    border: bold;
+    margin-right: 2%;
+   }
+}

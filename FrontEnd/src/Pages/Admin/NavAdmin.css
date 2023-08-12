@@ -1,0 +1,37 @@
+#barDerech{
+    height: 6vh;
+    margin-top: 5%;
+ 
+}
+.btn-primary{
+    margin-top: 5px;
+}
+.dropdown-menu{
+  list-style: none;
+ 
+}
+ul li {
+    list-style-type: none;
+    color: white;
+}
+.navig_admin {
+  background-color: rgb(21, 167, 47);
+}
+ul
+{
+    list-style: none;
+  
+}
+button
+{
+    display: block;
+}
+#navbarDropdown
+{
+    color: beige;
+}
+
+.dropdown-menu-end
+{
+    background: darkgray;
+}
