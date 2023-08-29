@@ -24,7 +24,9 @@ const Modifier2 = () => {
              });
 
          } )
+
      }
+     console.log(comsInput);
      const  fetchAllActus = ()=>
      {
             axios.get('/api/edit-actus/'+id).then(res =>

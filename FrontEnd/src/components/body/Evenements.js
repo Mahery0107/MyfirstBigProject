@@ -80,10 +80,42 @@ export default function Evenements () {
    
     const settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        }
+      ]
+     
     };
 
 
@@ -93,19 +125,29 @@ export default function Evenements () {
 
     return (
         
-        <div>
+        <div className = 'body-evenments'>
       
-           <Slider {...settings}>
+           <Slider {...settings} >
           {
             evenementInput.map((item, idx) => {
               return (
 
      
-            <div className="evenements-slide" key={idx}>
-                    <img src={`http://localhost:8000/${item.video}`}  className='card-img' />
-                    <p className='descriptions'>{item.extrait}</p> 
-                    <Link onClick={e => gotocoment(e, item.id)} className='btn btn-success btn-sm'> <i class="fas fa-comment"></i>Commenter</Link>
-            </div>
+                <div className='carde '>
+             <div className='image-content'>
+                     <span className='overlay'></span>
+
+                     <div className='card-image'>
+                     <img src={`http://localhost:8000/${item.video}`}  className='card-img' />
+                     </div>
+             </div>
+                     
+             <div className='card-content'>
+                 <p className='descriptions'>{item.extrait}</p> 
+                 <Link onClick={e => gotocoment(e, item.id)} className='btn btn-success btn-sm'> <i class="fas fa-cart-shopping"></i>Commenter</Link>
+                        
+             </div>
+        </div>
    
         
        )

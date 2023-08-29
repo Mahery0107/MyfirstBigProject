@@ -3,6 +3,45 @@
     margin: 0 auto;
   
 }
+.nombres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+.blue
+{
+    background-color: rgb(0, 140, 255);
+    width: 230px;
+    height: 150px;
+    margin: 30px;
+    padding: 10px 50px;
+    border-radius: 5%;
+}
+.blue i, .green i{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 8px 10px;
+}
+.green {
+    background-color: rgb(11, 131, 53);
+    width: 230px;
+    height: 150px;
+    margin: 30px;
+    padding: 10px 40px;
+    border-radius: 5%;
+}
+.blue p, .green p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 200;
+}
+
 #title-head{
     font-size:20px;
      margin-top: 2rem;

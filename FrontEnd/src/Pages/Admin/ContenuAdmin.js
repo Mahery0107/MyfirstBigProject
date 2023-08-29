@@ -15,8 +15,8 @@ const ContenuAdmin = () => {
     const [evenments,setEvenments] = useState([]);
     const [actus,setActus] = useState([]);
     const [offres,setOffre] = useState([]);
-
-
+    const [views,setViews] = useState([]);
+    const [users,setUsers] = useState([]);
     const [loading,setLoading] = useState(false);
 
     useEffect(()=>{ 
@@ -25,9 +25,21 @@ const ContenuAdmin = () => {
         fetchAllEvenments();
         fetchAllActus();
         fetchAllOffres();
+        fetchViews();
+        fetchAllUsers();
     },[]);
 
-    
+    const     fetchViews = () => {
+          axios.get('api/viewsCount').then(res =>{
+            setViews(res.data.compte);
+          })
+    }
+   const  fetchAllUsers= () => {
+        axios.get('api/allUsers').then(res =>{
+            setUsers(res.data.utilisateurs);
+        })
+  }
+ //console.log(users.length);
     const   fetchAllActus = () => {
         setLoading(true) 
         axios.get('/api/actualités')
@@ -157,6 +169,21 @@ const ContenuAdmin = () => {
                 </div>
                 <div id="layoutSidenav_content">
                   <main> 
+                  <div className='nombres'>
+                        <div className='blue'>
+                            <i class="fa-solid fa-eye"></i>
+                            <h2>Visiteurs</h2>
+                                
+                            <p>{views.vues}</p> 
+                        </div>
+                        <div className='green'>
+                            <i class="fa-solid fa-users"></i>
+                            <h2>Utilisateurs</h2>
+                                
+                            <p>{users.length}</p> 
+                        </div>
+                  </div>
+                 
                         <h1 id='title-head'>-----------------------HEADER LIST-----------------------</h1>
                         <div className='carte_apropos2 scroller' >
                            <table className="table table-bordered table-responsive table-striped ">

@@ -60,6 +60,14 @@ class AuthController extends Controller
             ]);
         }
     }
+    public function all_users()
+    {
+        $user  = User::where('role', 'user')->get();
 
+        return response()->json([
+            "status" => 200,
+            "utilisateurs" => $user ,
+        ]);
+    }
 
 }

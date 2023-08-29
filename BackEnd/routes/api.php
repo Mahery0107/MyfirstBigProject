@@ -129,7 +129,8 @@ Route::post('add-coments ', [ActuController::class, 'store']);
 
 //Email Route which we used in angular http service
 Route::post('views_pages', [ViewController::class, 'views']);
-
+Route::get('viewsCount', [ViewController::class, 'views_count']);
+Route::get('allUsers', [AuthController::class, 'all_users']);
 
 
 

@@ -99,7 +99,7 @@ const Login= () => {
                     </div>
                     <button type="submit" className="btn_log">Connecter</button> 
                     <div className='register-link'>
-                      <p><Link  className='register'  to={'/Registre'}>Vous avez déja un compte?</Link></p> 
+                      <p>Vous avez déja un compte?<Link  className='register'  to={'/Registre'}>        Créer</Link></p> 
                     </div>
                   
                 </form>

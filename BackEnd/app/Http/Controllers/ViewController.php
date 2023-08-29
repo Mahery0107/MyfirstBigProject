@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Pageview;
 use Illuminate\Http\Request;
 
+use function PHPUnit\Framework\countOf;
+
 class ViewController extends Controller
 {
     public function views()
@@ -27,5 +29,17 @@ class ViewController extends Controller
              "status"=>200,
              "vue" => $vue,
          ]);
+    }
+
+    public function views_count()
+    {
+        $views = Pageview::get()->first();
+
+
+        return response()->json([
+            "status"=>200,
+            "compte" => $views,
+        ]);
+
     }
 }

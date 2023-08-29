@@ -11,7 +11,11 @@ const SideBarAdmin = () => {
         <nav className="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                         <div className="sb-sidenav-menu">
                             <div className="nav">
-                                <div className="sb-sidenav-menu-heading">Header</div>
+                                <Link className="nav-link sb-sidenav-menu-heading" to="/admin">
+                                    
+                                 DASHBOARD
+                                </Link>
+                                <div className="sb-sidenav-menu-heading">Informations</div>
                                 <Link className="nav-link" to="/admin/AjoutHead">
                                     <div className="sb-nav-link-icon"><i className="fas fa-plus"></i></div>
                                  Ajouter 
